@@ -1,0 +1,52 @@
+@import url("./shared/navbar.css");
+@import url("./shared/footer.css");
+@import url("./shared/scrollbar.css");
+@import url("./shared/html.css");
+@import url("./shared/404.css");
+
+body img {
+  width: 100vw;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+#similar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  padding: 1rem;
+  gap: 2rem;
+}
+.card {
+  border-radius: 6px;
+  width: 20vw;
+  min-width: 200px;
+  height: fit-content;
+  padding: 0;
+  transition: all 200ms linear;
+}
+.card:hover {
+  scale: 1.04;
+  transition: all 200ms linear;
+}
+.card > img {
+  border-radius: 6px;
+  max-height: 250px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  padding: 2rem;
+}
+.container h2 {
+  padding: 2rem;
+}
+.container p {
+  padding: 2rem;
+}
